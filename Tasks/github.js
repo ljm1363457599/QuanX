@@ -47,16 +47,6 @@ const repositories = [
   {
     name: "zZPiglet大佬",
     url: "https://github.com/zZPiglet/Task"
-  },
- {
-    name: "yichahucha -- 微博广告",
-    file_names: ["wb_ad.js", "wb_launch.js"],
-    url: "https://github.com/yichahucha/surge/tree/master",//路径模板🌟
-  },
-  {
-    name: "NobyDa",
-    file_names: ["JD-DailyBonus/JD_DailyBonus.js", "52pojie-DailyBonus"],//路径模板🌟
-    url: "https://github.com/NobyDa/Script/tree/master",
   }
 ];
 
