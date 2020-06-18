@@ -25,16 +25,16 @@ const repositories = [
     url: "https://github.com/demo2099/jscool",
   },
   {
-    name: "野比大佬",
-    url: "https://github.com/NobyDa/Script/tree/master",
-  },
-  {
     name: "Chavy 脚本",
     url: "https://github.com/chavyleung/scripts",
   },
   {
     name: "Qure 图标",
     url: "https://github.com/Koolson/Qure",
+  },
+   {
+    name: "野比大佬",
+    url: "https://github.com/NobyDa/Script/tree/master",
   },
   {
     name: "Orz-mini 图标",
