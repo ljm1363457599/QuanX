@@ -19,18 +19,30 @@
 
 const token = "784a03feb07989d3339dfa41c7eb41777436cbfa";
 
-const repositories = [
+const repository = [
+  {
+    name: "呆猫 脚本",
+    url: "https://github.com/demo2099/jscool",
+  },
+  {
+    name: "野比大佬",
+    url: "https://github.com/NobyDa/Script/tree/master",
+  },
+  {
+    name: "C大",
+    url: "https://github.com/NobyDa/Script/tree/master",
+  },
   {
     name: "NZW9314 脚本",
     url: "https://github.com/nzw9314/QuantumultX/tree/master",
   },
   {
-    name: "ClashX",
-    url: "https://github.com/yichengchen/clashX/releases",
+    name: "Sunert大佬",
+    url: "https://github.com/Sunert/Scripts/tree/master"
   },
   {
-    name: "Chavy 脚本",
-    url: "https://github.com/chavyleung/scripts",
+    name: "zZPiglet大佬",
+    url: "https://github.com/zZPiglet/Task"
   },
   {
     name: "Qure 图标",
@@ -40,16 +52,6 @@ const repositories = [
     name: "Orz-mini 图标",
     url: "https://github.com/Orz-3/mini",
   },
-  {
-    name: "yichahucha -- 微博广告",
-    file_names: ["wb_ad.js", "wb_launch.js"],
-    url: "https://github.com/yichahucha/surge/tree/master",//路径模板🌟
-  },
-  {
-    name: "NobyDa",
-    file_names: ["JD-DailyBonus/JD_DailyBonus.js", "52pojie-DailyBonus"],//路径模板🌟
-    url: "https://github.com/NobyDa/Script/tree/master",
-  }
 ];
 
 const $ = API("github", false);
