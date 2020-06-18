@@ -26,7 +26,7 @@ const repositories = [
   },
   {
     name: "野比大佬",
-    url: "hhttps://github.com/NobyDa/Script/tree/master",
+    url: "https://github.com/NobyDa/Script/tree/master",
   },
   {
     name: "Chavy 脚本",
