@@ -16,8 +16,8 @@
 
 */
 const $ = new Env('⏰ 下雨提醒')
-$.weather_url = ""   //这里需要你填
-$.pre_hours = 24 //预测未来24小时，最多48小时
+$.weather_url = "https://weather.com/zh-CN/weather/hourbyhour/l/3c071bcded3330e075c6f48fa7e750154c3c92d4701d7b7d0f22b20976310047"   //这里需要你填
+$.pre_hours = 48 //预测未来24小时，最多48小时
 
 !(async () => {
     $.log('', `🔔 ${$.name}, 开始!`, '')
@@ -81,7 +81,7 @@ function getw() {
                     time_prefix = "后天"
                 }
                 console.log(`${time_point}，温度${tmp}，下雨概率${rain_p}`)
-                if (parseInt(rain_p.replace(/°/, "")) >= 50) {
+                if (parseInt(rain_p.replace(/°/, "")) >= 10) {
                     is_notify = true
                     $.message += `🌧 ${time_point}，温度${tmp}，下雨概率${rain_p}。\n`
                 }
